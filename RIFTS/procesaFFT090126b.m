@@ -69,7 +69,7 @@ for cont=1:size(z,1)
     Y = fft(medidoc.*hamming(Nlong)',NFFT)/Nlong;
     f = Fs/2*linspace(0,1,NFFT/2);
 
-    %calculo el espesor fÌsico como el punto donde aparece el m·ximo
+    %calculo el espesor f√≠sico como el punto donde aparece el m√°ximo
     aux=f*0.5;    %espesores en nm
     aux4=abs(Y(1:NFFT/2));  %fft
     %acondiciono la fft para que no de valores espureos para espesores
@@ -83,7 +83,7 @@ for cont=1:size(z,1)
 
      %busco espesor optimo y el ancho del pico como bondad del ajuste.Para
     %ello realizo un ajuste con una parabola del pico en la fft
-    aux5=find(aux4>(max(aux4)*porcentaje)); %extraigo los valores sÛlo del pico
+    aux5=find(aux4>(max(aux4)*porcentaje)); %extraigo los valores s√≥lo del pico
     %realizo el ajuste con una parabola
     [coeficientes,estadistica] =  fit(aux(aux5)',aux4(aux5)','poly2');
     
@@ -103,8 +103,8 @@ for cont=1:size(z,1)
         % Plot single-sided amplitude spectrum.
         hold on
         plot(aux*1e9,abs(Y(1:NFFT/2)))
-        xlabel('Espesor fÌsico [nm]')
-        ylabel('Amplitud de oscilaciÛn')
+        xlabel('Espesor f√≠sico [nm]')
+        ylabel('Amplitud de oscilaci√≥n')
     end
 
 
@@ -148,4 +148,4 @@ writematrix(esp_vs_t, 'tiempovsesp_b2.txt', ...
     'Delimiter', 'tab', ...      % o 'space', 'comma'
     'FileType', 'text');
 
-disp('Archivo resultados.txt creado con Èxito')
+disp('Archivo resultados.txt creado con √©xito')
