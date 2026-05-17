@@ -1,0 +1,9 @@
+En esta carpeta se encueuntran los códigos necesarios para llevar a cabo el análisis de espectros de reflectancia mediante la técnica RIFTS.
+
+
+Primeramente debe ejecutarse el código "procesadatos" el cuál es el encargado de seleccionar el rango de espectros con el que se quiere trabajar como tambien las longitudes de onda
+Este codigo es el encargado de acomodar los espectros a utilizar para su posterior FFT.
+
+
+Luego se debe carga el output de "procesadatos" en "procesafft"el cual se encarga de terminar de acondicionar los datos y realizar la trasnformada de fourier y posterior análisis de la misma para obtener 
+la evolución temporal del espesor óptico.
