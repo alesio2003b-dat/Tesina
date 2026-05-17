@@ -11,7 +11,7 @@ Nf=1233;
 Npc=1;  %Numero de curvas a promediar
 Ncs=1;  %relacion de curvas a tomar (se toman 1 de cada Ncs)
 
-Ti=0.5*4; %tiempo de integración utilizado
+Ti=0.5*4; %tiempo de integraciÃ³n utilizado
 Np=1;  %Suavizado de puntos adyacentes
 
 %rango de longitudes de onda a considerar
