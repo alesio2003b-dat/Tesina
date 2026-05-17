@@ -1,0 +1,7 @@
+En esta carpeta se encuentran los códigos utilizados para realizar el procesado de los datos obtenidos de la medición de la diferencia de potencial.
+
+
+Los datos fueron adquiridos con el código "midealopavo2_HP34401A.m" luego de conectar la computadora al multímetro.
+
+
+Cada script representa un set de datos diferente.
