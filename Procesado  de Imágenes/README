@@ -1,0 +1,7 @@
+En esta carpeta se encuentran los códigos utilizados para la realización del análisis de las imágenes adquiridas durante el mapeo superficial de saturación líquida en SP.
+
+
+El código "IIIB_calcula_FFvsT_v13b_norm.m" es el que se debe ejecutar para obtener las imágenes mostradas en la tesina. "Peakdet.m" y "prueba_desde_figura.m" son utilizados por el código mencionado en la primera linea.
+
+
+"Perfiles_231224a_v2.m" es utilizado para realizar un mapeo de la posición del frente de líquido durante las mediciones del potencial. Los resultados obtenidos por este método no fueron incluidos en la tesina.
